@@ -75,10 +75,10 @@ img {
 }
 
 .card img {
-    height: 100%;
     width: 20rem;
+    height: 20rem;       
+    object-fit: cover;  
     border-radius: 1rem;
-    text-align: center;
 }
 
 .card {
