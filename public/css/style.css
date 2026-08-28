@@ -1,0 +1,148 @@
+* {
+    background-color: black;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 5rem;
+}
+
+.top h1 {
+    color: white;
+    transition: .1s;
+    cursor: pointer;
+}
+
+.top h1:hover {
+    color: gold;
+}
+
+.top-bar {
+    display: flex;
+    gap: 2rem;
+}
+
+.top-bar a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    transition: .1s;
+}
+
+.top-bar a:hover {
+    color: gray;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main a {
+    margin: 1rem;
+    padding: 1rem 5rem;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    border-radius: 1rem;
+    transition: .2s;
+}
+
+.main a:hover {
+    background-color: rgb(136, 135, 135);
+    transform: scale(1.05);
+}
+
+img {
+    border-radius: 1rem;
+    height: 30rem;
+    width: 75rem;
+}
+
+.cards {
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+}
+
+.card img {
+    height: 100%;
+    width: 20rem;
+    border-radius: 1rem;
+    text-align: center;
+}
+
+.card {
+    transition: .2s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card h3 {
+    text-align: center;
+    color: white;
+}
+
+.base {
+    padding: 1rem;
+    margin-top: 8rem;
+    display: flex;
+    justify-content: center;
+}
+
+.base form {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    gap: 1rem;          
+}
+
+.input-group {
+    display: flex;
+    gap: 1rem;
+}
+
+.pesquisar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    border: 1px solid white;
+    transition: .2s;
+}
+
+.pesquisar:hover {
+    background-color: white;
+    color: black;
+    transform: scale(1.05);
+}
+
+.base input {
+    border-radius: 1rem;
+    background-color: white;
+    color: black;
+    padding: 1rem 2rem;
+}
+
+.footer {
+    margin-top: 8rem;
+    padding: 2rem;
+    border-top: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
